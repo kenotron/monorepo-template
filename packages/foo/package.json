@@ -1,0 +1,19 @@
+{
+  "name": "foo",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc --isolatedModules --emitDeclarationOnly false",
+    "typecheck": "tsc -b tsconfig.json",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "async": "3.2.0",
+    "typescript": "^4.2.3"
+  },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "bar": "*"
+  }
+}

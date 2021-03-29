@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-template",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "scripts"
+    ]
+  },
+  "scripts": {
+    "clean": "git clean -fdx -e node_modules",
+    "build": "lage build",
+    "typecheck": "lage typecheck",
+    "test": "lage test",
+    "lint": "lage lint",
+    "lage": "lage"
+  },
+  "devDependencies": {
+    "lage": "0.29.0"
+  }
+}
