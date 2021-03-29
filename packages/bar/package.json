@@ -2,7 +2,7 @@
   "name": "bar",
   "version": "0.1.0",
   "scripts": {
-    "build": "tsc --isolatedModules --emitDeclarationOnly false",
+    "build": "tsc --isolatedModules",
     "typecheck": "tsc -b tsconfig.json",
     "test": "jest",
     "lint": "eslint"
