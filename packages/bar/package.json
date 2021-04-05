@@ -4,8 +4,8 @@
   "main": "./src/index.ts",
   "scripts": {
     "build": "monorepo-scripts build",
-    "lint": "eslint",
-    "test": "jest",
+    "lint": "monorepo-scripts lint",
+    "test": "monorepo-scripts test",
     "typecheck": "monorepo-scripts typecheck",
     "just": "monorepo-scripts"
   },
