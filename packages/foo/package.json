@@ -1,21 +1,21 @@
 {
   "name": "foo",
   "version": "0.1.0",
+  "publishConfig": {
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts"
+  },
+  "main": "./src/index.ts",
   "scripts": {
-    "build": "tsc -b",
-    "typecheck": "tsc -b tsconfig.json",
+    "build": "monorepo-scripts build",
+    "lint": "eslint",
     "test": "jest",
-    "lint": "eslint"
+    "typecheck": "monorepo-scripts typecheck"
   },
-  "devDependencies": {
-    "@types/jest": "^26.0.22",
-    "async": "3.2.0",
-    "typescript": "^4.2.3",
-    "jest": "^26.6.3"
-  },
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
   "dependencies": {
     "bar": "*"
+  },
+  "devDependencies": {
+    "monorepo-scripts": "*"
   }
 }
