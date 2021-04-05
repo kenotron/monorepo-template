@@ -6,9 +6,11 @@
     "build": "monorepo-scripts build",
     "lint": "eslint",
     "test": "jest",
-    "typecheck": "monorepo-scripts typecheck"
+    "typecheck": "monorepo-scripts typecheck",
+    "just": "monorepo-scripts"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.22",
     "monorepo-scripts": "*"
   },
   "publishConfig": {
