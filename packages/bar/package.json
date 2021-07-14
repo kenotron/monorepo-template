@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "main": "./src/index.ts",
   "scripts": {
-    "build": "monorepo-scripts build",
-    "lint": "monorepo-scripts lint",
-    "test": "monorepo-scripts test",
-    "typecheck": "monorepo-scripts typecheck",
-    "just": "monorepo-scripts"
+    "build": "ws-scripts build",
+    "lint": "ws-scripts lint",
+    "test": "ws-scripts test",
+    "typecheck": "ws-scripts typecheck",
+    "just": "ws-scripts"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
-    "monorepo-scripts": "*"
+    "ws-scripts": "workspace:*"
   },
   "publishConfig": {
     "main": "./lib/index.js",

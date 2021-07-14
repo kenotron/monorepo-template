@@ -16,7 +16,7 @@
     "lage": "lage"
   },
   "devDependencies": {
-    "lage": "0.29.0",
+    "lage": "^0.31.0",
     "beachball": "^2.1.0"
   }
 }

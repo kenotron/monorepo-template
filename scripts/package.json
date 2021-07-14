@@ -1,10 +1,10 @@
 {
-  "name": "monorepo-scripts",
+  "name": "ws-scripts",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "monorepo-scripts": "bin/monorepo-scripts.js"
+    "ws-scripts": "bin/ws-scripts.js"
   },
   "devDependencies": {
     "jest": "^26.6.3",

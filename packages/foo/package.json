@@ -7,16 +7,16 @@
   },
   "main": "./src/index.ts",
   "scripts": {
-    "build": "monorepo-scripts build",
-    "lint": "monorepo-scripts lint",
-    "test": "monorepo-scripts test",
-    "typecheck": "monorepo-scripts typecheck"
+    "build": "ws-scripts build",
+    "lint": "ws-scripts lint",
+    "test": "ws-scripts test",
+    "typecheck": "ws-scripts typecheck"
   },
   "dependencies": {
     "bar": "*"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
-    "monorepo-scripts": "*"
+    "ws-scripts": "workspace:*"
   }
 }
